@@ -1,4 +1,4 @@
-# Mukeey (mualiyuoox@gmail.com) HTTP serve and remote connection via SSH(i.e TCP).
+# Mukeey (mualiyuoox@gmail.com) HTTP serve and remote connection via SSH(i.e Using TCP).
 
 ### Overview
 
