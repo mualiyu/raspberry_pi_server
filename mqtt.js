@@ -5,16 +5,11 @@ const mqtt = require('mqtt');
 
 module.exports = function(clientId) {
 
-	const username = process.env.MQTT_USER;
-	const password = process.env.MQTT_PASSWORD;
 	const host = process.env.MQTT_HOST;
 
 	let options = {
-		port: 8883,
-		username,
-		password,
-		clientId,
-		protocol: 'mqtts',
+		port: 1883,
+		protocol: 'mqtt',
 		host,
 		qos: 3
 	}
@@ -23,6 +18,9 @@ module.exports = function(clientId) {
 
 	let connection = mqtt.connect(options);
 
+	// if (connection == true) {
+	// 	console.log("<< connected to  '"+clientId+"'");
+	// }
 	return connection;
 
 }

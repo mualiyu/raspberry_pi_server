@@ -1,20 +1,9 @@
-# OhioIoT Tunnel application to use Ngrok to access your Raspberry Pi remotely
+# Mukeey (mualiyuoox@gmail.com) HTTP serve and remote connection via SSH(i.e TCP).
 
 ### Overview
 
-Pull this repo onto both your (soon to be remote) Raspberry Pi and your local computer.  app.js runs on the Pi to listen for connections.  open.js and close.js are used by the local computer to request SSH strings from the Pi.
+Pull this repo onto both your Raspberry Pi and your Local device. app.js runs on the Pi to listen for connections. info.js is used by the local computer to request SSH strings from the Pi.
 
-See the following YouTube videos for a better explanation on how these files work.
-
-Remote Access to Raspberry Pi Using Ngrok - Part 1 of 2:  https://youtu.be/KIwN5h-0oLs
-
-Remote Access to Raspberry Pi Using Ngrok - Part 2 of 2:  https://youtu.be/0TA-6QaofE8
-
-
-
-### RPi installations
-
-In the video I posted some scripts to install softare on your raspberry pi.  Here they are in print so you can copy and paste:
 
 #### Install NodeJS
 

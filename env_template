@@ -1,9 +1,9 @@
 
 
 
-MQTT_USER=fernando_alono
-MQTT_PASSWORD=Gjkjkgy&55
-MQTT_HOST=mqtt.sample_domain.com
+MQTT_USER=mukeey
+MQTT_PASSWORD=password
+MQTT_HOST=127.0.0.1
 
-NGROK_TOKEN=sfjk9asd8989j4jadj09wsuj80u8ju8-kauk
+NGROK_TOKEN=ufidfdjhdfjdf-dfhidhfkfkhf-876467-odfhf
 PI_USERNAME=pi

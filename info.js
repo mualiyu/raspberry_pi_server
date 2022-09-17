@@ -9,9 +9,12 @@ mqtt.subscribe(path+'url');
 
 mqtt.on('message', function(topic, payload) {
 	let url = payload.toString();
-	let str = parseUrl(url);
-	console.log("the command we should paste into the command line");
-	console.log("\n\t"+str+"\n");
+	// url = url.split('//');
+	// console.log(url[0]);
+	console.log("The http server is:  "+url);
+	// let str = parseUrl(url[0]);
+	// console.log("the ssh command we should paste into the command line to get into the PI server");
+	// console.log("\n\t"+str+"\n");
 })
 
 mqtt.on('connect', function() {
